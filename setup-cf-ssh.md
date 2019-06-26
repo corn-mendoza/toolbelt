@@ -1,3 +1,5 @@
+# Setting up cf ssh for Azure Cloud Foundry
+
 1. After logging into the Azure CLI, execute the following commands:
 
 ` export LOCATION="westus"`
