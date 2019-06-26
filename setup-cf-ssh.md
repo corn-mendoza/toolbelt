@@ -2,9 +2,9 @@
 
 1. After logging into the Azure CLI, execute the following commands (substitute your location and resource group appropriately):
 
-` export LOCATION="_westus_"`
+` export LOCATION="westus"`
 
-` export RESOURCE_GROUP="_AZURE-RESOURCE-GRP_"`
+` export RESOURCE_GROUP="AZURE-RESOURCE-GRP"`
 
 
 ` az network lb create --name pcf-ssh-lb \
