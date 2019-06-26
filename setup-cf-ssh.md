@@ -1,9 +1,10 @@
 # Setting up cf ssh for Azure Cloud Foundry
 
-1. After logging into the Azure CLI, execute the following commands:
+1. After logging into the Azure CLI, execute the following commands (substitute your location and resource group appropriately):
 
-` export LOCATION="westus"`
-` export RESOURCE_GROUP="CORN-PCF-AZURE-GRP"`
+` export LOCATION="_westus_"`
+
+` export RESOURCE_GROUP="_AZURE-RESOURCE-GRP_"`
 
 
 ` az network lb create --name pcf-ssh-lb \
@@ -23,6 +24,8 @@
 --protocol Tcp --port 2222`
 
 2. Update control resource in the PAS tile with the load balancer pcf-ssh-lb
+
 3. Find control VM and add firewall rule to allow inbound connections on 2222 in Azure
-4. Update DNS entry for ssh.sys.yourdomain.com
+
+4. Update DNS entry for ssh.sys._yourdomain.com_
 
