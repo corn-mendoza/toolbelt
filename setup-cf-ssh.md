@@ -18,5 +18,5 @@
 
 3. Find control VM and add firewall rule to allow inbound connections on 2222 in Azure
 
-4. Update DNS entry for ssh.sys._yourdomain.com_
+4. Update DNS entry for the ssh endpoint i.e. ssh._sys.yourdomain.com_ 
 
