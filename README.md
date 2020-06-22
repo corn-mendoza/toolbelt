@@ -1,7 +1,7 @@
 # Corn's Toolkit
 
 ## Azure
-- Setup SSH on Azure
+- Instructions on how to setup "cf ssh" on Azure
 
 ## UAAC
-- Setup UAAC on Windows/Linux to use on TKGI or TAS - works with WSL
+- Instructions on how to setup UAAC on Windows/Linux to use on TKGI or TAS - works with WSL
